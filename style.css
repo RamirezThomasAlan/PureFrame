@@ -46,13 +46,33 @@ body {
 }
 
 .cta {
-    background-color: #000;
-    color: white;
+    background-color: #FFFFFF;
+    color: #000000;
     border: none;
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     cursor: pointer;
     margin-top: 1rem;
+}
+
+.hero {
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('../proyecto-auriculares/img/auriculares.jpg') no-repeat center ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
 }
 
 .footer {
